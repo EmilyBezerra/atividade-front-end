@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Atividade Front-End</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header>
+    <nav>
+      <ul class="menu">
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio">
+      <h1>Bem-vindo à Atividade de Front-End</h1>
+      <p>Este projeto demonstra responsividade e interatividade básica.</p>
+    </section>
+
+    <section id="sobre">
+      <h2>Sobre o Projeto</h2>
+      <p>Aplicação feita com HTML5, CSS3 e JavaScript.</p>
+    </section>
+
+    <section id="contato">
+      <h2>Contato</h2>
+      <form id="formContato">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" required />
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" required></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+      <p id="resposta"></p>
+    </section>
+  </main>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
