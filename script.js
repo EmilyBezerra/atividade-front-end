@@ -1,6 +1,6 @@
 
 document.getElementById("formContato").addEventListener("submit", function(event) {
-  event.preventDefault(); // evita envio real do formulário
+  event.preventDefault(); 
 
   const nome = document.getElementById("nome").value.trim();
   const email = document.getElementById("email").value.trim();
